@@ -1,0 +1,38 @@
+.clients {
+    min-height: 720px;
+    width: 100vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../assets/img/clients-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.clients__dsc-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: var(--full-width);
+    justify-content: space-between;
+    margin: 40px 0;
+}
+
+.clients__img {
+    max-height: 377px;
+}
+
+.tags {
+    display: flex;
+}
+
+.tag {
+    color: var(--white);
+    font-size: var(--m);
+    font-weight: var(--light);
+    border: 1px solid var(--white);
+    padding: 4px 10px;
+    margin-right: 5px;
+}

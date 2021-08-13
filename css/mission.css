@@ -1,41 +1,19 @@
-.mission-wrapper {
-    height: 600px;
-    width: var(--main-width);
+.mission {
+    min-height: 600px;
+    max-width: var(--main-width);
     margin: 0 auto;
     display: flex;
-    align-items: center;
     justify-content: center;
 }
 
-.mission-text-wrapper {
+.mission__text-wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.mission-header {
-    font-size: var(--xl);
-    color: var(--dark)
-}
-
-.mission-dsc-wrapper {
+.mission__dsc-wrapper {
 position: relative;
 }
 
-.mission-quote-sign {
-    position: absolute;
-    left: -60px;
-    font-size: 61px;
-    color: var(--dark);
-    font-weight: var(--black-bold);
-}
-
-.mission-description {
-    font-size: var(--l);
-    font-weight: var(--light);
-    color: var(--gray);
-    line-height: 40px;
-    width: 755px;
-    margin: 45px 0;
-}

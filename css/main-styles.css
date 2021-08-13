@@ -1,5 +1,6 @@
 @import url("header.css");
 @import url("mission.css");
+@import url("clients.css");
 
 :root {
   /* colors */
@@ -21,6 +22,7 @@
 
   /* page sizes */
   --main-width: 960px;
+  --full-width: 1150px;
 }
 
 *, *::before, *::after {
@@ -32,6 +34,10 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Mada', sans-serif;
   font-size: var(--m);
@@ -40,4 +46,37 @@ body {
 
 h1, h2, h3 {
   font-family: 'Homenaje', sans-serif;
+}
+
+.description {
+  font-size: var(--l);
+  font-weight: var(--light);
+  color: var(--gray);
+  line-height: 45px;
+  max-width: 785px;
+  margin: 45px 30px 85px 30px;
+}
+
+.description--clients {
+  font-size: 30px;
+  display: block;
+  max-width: 590px;
+}
+
+.header {
+  margin-top: 85px;
+  font-size: var(--xl);
+  color: var(--dark)
+}
+
+.header--white{
+  color: var(--white);
+}
+
+.quote-sign {
+  position: absolute;
+  left: -30px;
+  font-size: 61px;
+  color: var(--dark);
+  font-weight: var(--black-bold);
 }
