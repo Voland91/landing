@@ -5,6 +5,9 @@ header {
     height: 100vh;
     align-items: center;
     justify-content: center;
+    background-image: url('../assets/img/hero-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
   }
  
 nav {
@@ -12,11 +15,9 @@ nav {
     top: 0;
     display: flex;
     flex-direction: row;
-    width: 950px;
+    width: var(--main-width);
     height: 70px;
     align-items: center;
-    /* justify-content: center; */
-    background-color: orange;
 }  
 
 nav ul {
@@ -24,44 +25,66 @@ nav ul {
     display: flex;
     flex-direction: row;
     margin: 0 auto;
+    padding-top: 20px;
 }
 
 nav li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-transform: uppercase;
     text-align: center;
-    color: #fff;
+    color: var(--white);
     width: 145px;
-    height: 70px;
-    font-size: 14px;
-    background-color: orangered;
-    border-right: 1px solid #fff;
-    border-top: 10px solid transparent;
-    
-}
-
-nav li:hover {
-    transition: 0.5s;
-    border-top-color: #62c017;
+    height: 55px;
+    font-size: var(--l);
+    border-right: 0.5px solid var(--white);
 }
 
 nav li:nth-last-child(1){
     border-right: none;
 }
 
-.logo{
-    position: fixed;
-    top: 0;
-    width: 100px;
-    height: 70px;
-    background-color: blueviolet;
+nav li:hover {
+    font-size: 16px;
+    transition: 0.2s;
 }
 
-h1, h2 {
-    font-size: 58px;
+nav li a {
+    color: var(--white);
+    text-decoration: none;
+}
+
+.logo-wrapper {
+    position: fixed;
+    top: 0;
+    width: 96px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 10px solid transparent;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.logo-wrapper:hover {
+    transition: 0.2s;
+    border-top-color: var(--green);
+}
+
+.hero {
+    font-size: var(--xl);
     text-transform: uppercase;
     display: block;
 }
 
-h2 {
-    color: #2d2d2d;
+h1.hero {
+    color: var(--white);
+}
+
+h2.hero {
+    color: var(--dark)
 }
