@@ -76,7 +76,7 @@ nav li a {
 }
 
 .hero {
-    font-size: var(--xl);
+    font-size: var(--xxl);
     text-transform: uppercase;
     display: block;
 }
