@@ -1,10 +1,7 @@
 header {
     display: flex;
-    flex-direction: column;
-    width: 100vw;
-    height: 100vh;
-    align-items: center;
     justify-content: center;
+    height: 100vh;
     background-image: url('../assets/img/hero-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -12,12 +9,21 @@ header {
  
 nav {
     position: fixed;
-    top: 0;
     display: flex;
     width: 100%;
     max-width: var(--main-width);
     height: 70px;
-}  
+    z-index: 999;
+    transition: 0.3s;
+} 
+
+.nav-active {
+    background-color: var(--green);
+    height: 90px;
+    transition: 0.3s;
+    width: 100%;
+    max-width: 100%;
+}
 
 nav ul {
     list-style: none;
@@ -58,8 +64,10 @@ nav li a {
 }
 
 .logo-wrapper {
+    position: fixed;
     width: 96px;
     height: 70px;
+    margin: 10px 0 0 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -76,15 +84,21 @@ nav li a {
 }
 
 .hero {
-    font-size: var(--xxl);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
     text-transform: uppercase;
-    display: block;
+    align-items: center;
+    justify-content: center;
 }
 
-h1.hero {
+.hero h1 {
     color: var(--white);
+    font-size: var(--xxl);
 }
 
-h2.hero {
-    color: var(--dark)
+.hero h2 {
+    color: var(--dark);
+    font-size: var(--xxl);
 }
