@@ -1,0 +1,14 @@
+.description {
+    font-size: font-size(l);
+    font-weight: font-weight(light);
+    color: color(gray);
+    line-height: 45px;
+    max-width: 785px;
+    margin: 45px 30px 85px 30px;
+  
+  &--clients {
+    font-size: 30px;
+    display: block;
+    max-width: 590px;
+  }
+}

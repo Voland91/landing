@@ -1,3 +1,4 @@
+// adding changes (bg color, diff width, etc.) to navbar
 const nav = document.querySelector("nav");
 
 window.onscroll = () => {

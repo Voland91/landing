@@ -1,0 +1,15 @@
+.mission {
+    @include flexRowCenter;
+    min-height: 600px;
+    max-width: width(main-width);
+    margin: 0 auto;
+
+    &__text-wrapper {
+        @include flexColCenter;
+    }
+
+    &__dsc-wrapper {
+        position: relative;
+    }
+
+}

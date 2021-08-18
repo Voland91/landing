@@ -1,0 +1,35 @@
+@import "base/variables";
+@import "base/functions";
+@import "base/mixins";
+
+@import "layout/header";
+@import "layout/section-mission";
+@import "layout/section-clients";
+
+@import 'components/description';
+@import 'components/title';
+@import 'components/quote-sign';
+
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Mada', sans-serif;
+  font-size: font-size(m);
+  overflow-x: hidden;
+}
+
+h1, h2, h3 {
+  font-family: 'Homenaje', sans-serif;
+}
+
