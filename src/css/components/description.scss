@@ -26,4 +26,13 @@
     line-height: 20px;
     padding: 13px;
   }
+
+  &--contact {
+    height: 180px;
+    line-height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 320px;
+  }
 }

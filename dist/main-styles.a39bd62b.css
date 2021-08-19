@@ -157,6 +157,8 @@ nav li a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-bottom: 100px;
+  width: 100vw;
 }
 
 .icons {
@@ -198,6 +200,31 @@ nav li a {
   margin: 45px 30px;
 }
 
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  background-image: url("/map.85bfe7bb.png");
+  background-color: #f1f1f1;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 500px;
+}
+.contact__text-wrapper {
+  margin-left: 20px;
+  justify-self: flex-start;
+  display: flex;
+  align-items: flex-start;
+  width: 1150px;
+}
+.contact__logo {
+  margin-right: 20px;
+  margin-top: -10px;
+  width: 33px;
+}
+
 .description {
   font-size: 22px;
   font-weight: 300;
@@ -222,6 +249,14 @@ nav li a {
   font-weight: 400;
   line-height: 20px;
   padding: 13px;
+}
+.description--contact {
+  height: 180px;
+  line-height: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 320px;
 }
 
 .title {

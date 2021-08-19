@@ -1,5 +1,7 @@
 .products {
     @include flexColCenter;
+    margin-bottom: 100px;
+    width: 100vw;
 }
 
 .icons {
