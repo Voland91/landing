@@ -1,0 +1,49 @@
+.products {
+    @include flexColCenter;
+}
+
+.icons {
+    @include flexRowCenter;
+    
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: width(main-width);
+
+    &__container {
+        position: relative;
+        width: 205px;
+        height: 230px;
+    }
+
+    &__description-wrapper {
+        cursor: pointer;
+        transition: 0.2s;
+
+        &:hover{
+            position: absolute;
+            top: 0;
+            background-color: color(green);
+            z-index: 999;
+            box-shadow: 0 1px 5px rgba(0,0,0,.1);
+
+            & .icons__description {
+                display: block;
+            }
+
+            & .icons__item{
+                filter: invert(92%) sepia(94%) saturate(19%) hue-rotate(309deg) brightness(106%) contrast(100%);
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    &__description {
+        display: none;
+    }
+
+    &__item {
+        width: 145px;
+        margin: 45px 30px;
+    }
+}
+
