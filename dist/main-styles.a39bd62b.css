@@ -113,6 +113,7 @@ nav li a {
 }
 .mission__dsc-wrapper {
   position: relative;
+  padding: 45px 30px 85px 30px;
 }
 
 .clients {
@@ -157,12 +158,17 @@ nav li a {
   color: #3c3c3c;
   line-height: 45px;
   max-width: 785px;
-  margin: 45px 30px 85px 30px;
 }
 .description--clients {
   font-size: 30px;
-  display: block;
   max-width: 590px;
+}
+.description--author {
+  color: #1c1b1b;
+  padding: 20px 0 30px 0;
+}
+.description--author a {
+  color: #fff;
 }
 
 .title {
@@ -177,9 +183,6 @@ nav li a {
 .quote-sign {
   position: absolute;
   left: -30px;
-  font-size: 61px;
-  color: #2d2d2d;
-  font-weight: 900;
 }
 
 *, *::before, *::after {
