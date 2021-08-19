@@ -1,6 +1,6 @@
 .products {
     @include flexColCenter;
-    margin-bottom: 100px;
+    margin: margin(primary);
     width: 100vw;
 }
 

@@ -5,6 +5,7 @@ $colors: (
     gray: #3c3c3c,
     black: #1c1b1b,
     bg-gray: #f1f1f1,
+    footer: #242424,
 );
 
 $font-sizes: (
@@ -12,6 +13,7 @@ $font-sizes: (
     xl: 50px,
     l: 22px,
     m: 14px,
+    s: 12px,
 );
 
 $font-weights: (
@@ -23,4 +25,13 @@ $font-weights: (
 $page-sizes: (
     main-width: 960px,
     full-width: 1150px,
+);
+
+$font-families: (
+    primary: 'Mada',
+    secondary: 'Homenaje',
+);
+
+$section-margins: (
+    primary: 85px auto,
 );

@@ -29,3 +29,12 @@
 @function width($key) {
     @return get-map-value($page-sizes, $key);
 }
+
+@function font-family($key) {
+    @return get-map-value($font-families, $key);
+}
+
+@function margin($key) {
+    @return get-map-value($section-margins, $key);
+}
+

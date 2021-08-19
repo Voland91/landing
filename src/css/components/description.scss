@@ -27,12 +27,16 @@
     padding: 13px;
   }
 
-  &--contact {
+  &--map {
     height: 180px;
     line-height: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     width: 320px;
+  }
+
+  &--contact {
+    line-height: 20px;
   }
 }

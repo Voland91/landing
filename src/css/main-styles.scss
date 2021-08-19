@@ -6,11 +6,14 @@
 @import "layout/section-mission";
 @import "layout/section-clients";
 @import "layout/section-products";
+@import "layout/map";
 @import "layout/section-contact";
+@import "layout/footer";
 
 @import 'components/description';
 @import 'components/title';
 @import 'components/quote-sign';
+@import 'components/button';
 
 *, *::before, *::after {
   -webkit-box-sizing: border-box;
@@ -26,12 +29,12 @@ html {
 }
 
 body {
-  font-family: 'Mada', sans-serif;
+  font-family: font-family(primary);
   font-size: font-size(m);
   overflow-x: hidden;
 }
 
 h1, h2, h3 {
-  font-family: 'Homenaje', sans-serif;
+  font-family: font-family(secondary);
 }
 
