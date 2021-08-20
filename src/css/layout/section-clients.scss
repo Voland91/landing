@@ -3,13 +3,13 @@
 
     min-height: 720px;
     width: 100vw;
-    margin: margin(primary);
+    padding: padding(section);
     background-image: url('../../assets/img/clients-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
 
     &__title{
-        padding: padding(primary); 
+        padding: padding(text);
     }
 
     &__dsc-wrapper {

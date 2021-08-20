@@ -1,7 +1,8 @@
 .contact {
     @include flexColCenter;
     width: 100vw;
-    margin: margin(primary);
+    padding: padding(section); 
+    background-color: color(bg-gray2);
 
     &__title-wrapper {
         @include flexRowCenter;
@@ -12,8 +13,13 @@
     }
 
     &__form-wrapper{
-        padding: padding(primary); 
+        padding: padding(text); 
         padding-bottom: 0px;
+    }
+
+    &__checkbox-wrapper{
+        display: flex;
+        align-items: center;
     }
 }
 

@@ -1,11 +1,11 @@
 .products {
     @include flexColCenter;
-    margin: margin(primary);
+    padding: padding(section);
     width: 100vw;  
 
     &__text-wrapper {
         @include flexColCenter;
-        padding: padding(primary);
+        padding: padding(text);
     }
 }
 

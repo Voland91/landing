@@ -160,9 +160,20 @@
     <div class="contact__form-wrapper">
         <p class="description description--contact">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae.</p>
         <form class="form">
-            <p class="description description--form">Hello! I'm<input type="text" placeholder="Your Name" class="text-input" required />and I represent<input type="text" placeholder="Company name" class="text-input" required/>.<br>
-            Call me at<input type="text" placeholder="Your telephone number" class="text-input" required/>or send an email to<input type="text" placeholder="Your email adress" class="text-input" required/>.</p>
-            <p class="description description--contact"><input type="checkbox" required>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+            <p class="description description--form">
+                Hello! I'm
+                <input type="text" placeholder="Your Name" class="text-input" required pattern="[a-z]{3,20}"/>
+                and I represent
+                <input type="text" placeholder="Company name" class="text-input" required pattern="[a-z]{3,30}"/>.<br>
+                Call me at
+                <input type="tel" placeholder="Your telephone number" class="text-input" required pattern="[0-9]{9}"/>
+                or send an email to
+                <input type="email" placeholder="Your email adress" class="text-input" required/>.</p>
+                <div class="contact__checkbox-wrapper">
+                    <input type="checkbox" class="checkbox" required>
+                    <p class="description description--contact">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                </div>
+            
             <button class="button button--submit" type="submit">send details</button>
         </form>
     </section>

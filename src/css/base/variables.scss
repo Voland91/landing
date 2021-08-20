@@ -5,6 +5,7 @@ $colors: (
     gray: #3c3c3c,
     black: #1c1b1b,
     bg-gray: #f1f1f1,
+    bg-gray2: #f9f9f9,
     footer: #242424,
 );
 
@@ -33,10 +34,7 @@ $font-families: (
     secondary: 'Homenaje',
 );
 
-$section-margins: (
-    primary: 85px auto,
-);
-
 $section-paddings: (
-    primary: 45px 30px,
+    text: 45px 30px,
+    section: 85px 0,
 );

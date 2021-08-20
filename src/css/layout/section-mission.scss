@@ -2,7 +2,8 @@
     @include flexRowCenter;
     width: 100%;
     max-width: width(main-width);
-    margin: margin(primary);
+    margin: 0 auto;
+    padding: padding(section);
 
     &__text-wrapper {
         @include flexColCenter;
@@ -10,7 +11,7 @@
 
     &__dsc-wrapper {
         position: relative;
-        padding: padding(primary);
+        padding: padding(text);
         padding-bottom: 0;
     }
 
