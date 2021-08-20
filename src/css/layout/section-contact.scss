@@ -1,7 +1,5 @@
 .contact {
     @include flexColCenter;
-    width: 100vw;
-    padding: padding(section); 
     background-color: color(bg-gray2);
 
     &__title-wrapper {

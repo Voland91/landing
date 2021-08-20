@@ -101,10 +101,8 @@ nav li a {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
   max-width: 960px;
   margin: 0 auto;
-  padding: 85px 0;
 }
 .mission__text-wrapper {
   display: flex;
@@ -124,8 +122,6 @@ nav li a {
   align-items: center;
   justify-content: center;
   min-height: 720px;
-  width: 100vw;
-  padding: 85px 0;
   background-image: url("/clients-bg.c366f4a3.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -162,8 +158,6 @@ nav li a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 85px 0;
-  width: 100vw;
 }
 .products__text-wrapper {
   display: flex;
@@ -230,6 +224,7 @@ nav li a {
   display: flex;
   align-items: flex-start;
   width: 1150px;
+  padding: 45px 30px;
 }
 .map__logo {
   margin-right: 20px;
@@ -242,8 +237,6 @@ nav li a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 100vw;
-  padding: 85px 0;
   background-color: #f9f9f9;
 }
 .contact__title-wrapper {
@@ -351,6 +344,7 @@ nav li a {
   border-radius: 6px;
   cursor: pointer;
   transition: 0.2s;
+  text-decoration: none;
 }
 .button:hover {
   border: 2px solid #62c017;
@@ -378,6 +372,11 @@ nav li a {
   width: 23px;
   height: 23px;
   margin-right: 15px;
+}
+
+.section-container {
+  width: 100vw;
+  padding: 85px 0;
 }
 
 *, *::before, *::after {

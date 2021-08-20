@@ -1,9 +1,7 @@
 .mission {
     @include flexRowCenter;
-    width: 100%;
     max-width: width(main-width);
     margin: 0 auto;
-    padding: padding(section);
 
     &__text-wrapper {
         @include flexColCenter;

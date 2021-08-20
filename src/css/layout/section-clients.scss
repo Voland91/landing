@@ -1,9 +1,6 @@
 .clients {
     @include flexColCenter;
-
     min-height: 720px;
-    width: 100vw;
-    padding: padding(section);
     background-image: url('../../assets/img/clients-bg.png');
     background-repeat: no-repeat;
     background-size: cover;

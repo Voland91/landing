@@ -1,7 +1,5 @@
 .products {
     @include flexColCenter;
-    padding: padding(section);
-    width: 100vw;  
 
     &__text-wrapper {
         @include flexColCenter;
