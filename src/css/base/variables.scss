@@ -11,6 +11,7 @@ $colors: (
 $font-sizes: (
     xxl: 58px,
     xl: 50px,
+    ll: 30px,
     l: 22px,
     m: 14px,
     s: 12px,
@@ -34,4 +35,8 @@ $font-families: (
 
 $section-margins: (
     primary: 85px auto,
+);
+
+$section-paddings: (
+    primary: 45px 30px,
 );

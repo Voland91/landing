@@ -1,6 +1,5 @@
 .mission {
     @include flexRowCenter;
-    min-height: 600px;
     width: 100%;
     max-width: width(main-width);
     margin: margin(primary);
@@ -11,7 +10,8 @@
 
     &__dsc-wrapper {
         position: relative;
-        padding: 45px 30px; 
+        padding: padding(primary);
+        padding-bottom: 0;
     }
 
 }

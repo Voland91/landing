@@ -8,6 +8,10 @@
     background-repeat: no-repeat;
     background-size: cover;
 
+    &__title{
+        padding: padding(primary); 
+    }
+
     &__dsc-wrapper {
         display: flex;
         flex-wrap: wrap;

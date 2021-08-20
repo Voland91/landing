@@ -1,14 +1,23 @@
 .contact {
     @include flexColCenter;
-    justify-content: space-between;
     width: 100vw;
     margin: margin(primary);
-    min-height: 500px;
 
     &__title-wrapper {
         @include flexRowCenter;
         justify-content: space-between;
         width: 100%;
         max-width: width(full-width);
+        padding: 0 20px;
     }
+
+    &__form-wrapper{
+        padding: padding(primary); 
+        padding-bottom: 0px;
+    }
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
 }

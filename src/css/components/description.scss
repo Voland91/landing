@@ -6,7 +6,7 @@
     max-width: 785px;
   
   &--clients {
-    font-size: 30px;
+    font-size: font-size(ll);
     max-width: 590px;
   }
 
@@ -38,5 +38,10 @@
 
   &--contact {
     line-height: 20px;
+  }
+
+  &--form {
+    font-size: font-size(ll);
+    margin: 40px 0 20px 0;
   }
 }

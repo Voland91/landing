@@ -38,3 +38,7 @@
     @return get-map-value($section-margins, $key);
 }
 
+@function padding($key) {
+    @return get-map-value($section-paddings, $key);
+}
+

@@ -101,7 +101,6 @@ nav li a {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 600px;
   width: 100%;
   max-width: 960px;
   margin: 85px auto;
@@ -115,6 +114,7 @@ nav li a {
 .mission__dsc-wrapper {
   position: relative;
   padding: 45px 30px;
+  padding-bottom: 0;
 }
 
 .clients {
@@ -128,6 +128,9 @@ nav li a {
   background-image: url("/clients-bg.c366f4a3.png");
   background-repeat: no-repeat;
   background-size: cover;
+}
+.clients__title {
+  padding: 45px 30px;
 }
 .clients__dsc-wrapper {
   display: flex;
@@ -160,6 +163,13 @@ nav li a {
   justify-content: center;
   margin: 85px auto;
   width: 100vw;
+}
+.products__text-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 45px 30px;
 }
 
 .icons {
@@ -219,6 +229,7 @@ nav li a {
   display: flex;
   align-items: flex-start;
   width: 1150px;
+  padding: 45px 30px;
 }
 .map__logo {
   margin-right: 20px;
@@ -231,10 +242,8 @@ nav li a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  justify-content: space-between;
   width: 100vw;
   margin: 85px auto;
-  min-height: 500px;
 }
 .contact__title-wrapper {
   display: flex;
@@ -243,6 +252,16 @@ nav li a {
   justify-content: space-between;
   width: 100%;
   max-width: 1150px;
+  padding: 0 20px;
+}
+.contact__form-wrapper {
+  padding: 45px 30px;
+  padding-bottom: 0px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
 }
 
 .footer {
@@ -299,6 +318,10 @@ nav li a {
 .description--contact {
   line-height: 20px;
 }
+.description--form {
+  font-size: 30px;
+  margin: 40px 0 20px 0;
+}
 
 .title {
   font-size: 50px;
@@ -328,6 +351,19 @@ nav li a {
   border: 2px solid #62c017;
   background-color: transparent;
   color: #62c017;
+}
+.button--submit {
+  margin: 20px 0;
+  align-self: center;
+  justify-self: center;
+}
+
+.text-input {
+  border: none;
+  border-bottom: 1px solid #3c3c3c;
+  color: #3c3c3c;
+  padding: 5px 10px;
+  margin: 5px;
 }
 
 *, *::before, *::after {

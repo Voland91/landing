@@ -1,7 +1,12 @@
 .products {
     @include flexColCenter;
     margin: margin(primary);
-    width: 100vw;
+    width: 100vw;  
+
+    &__text-wrapper {
+        @include flexColCenter;
+        padding: padding(primary);
+    }
 }
 
 .icons {
