@@ -99,3 +99,13 @@ nav li {
         font-size: font-size(xxl);
     }
 }
+
+.hero-cursor {
+    opacity: 0;
+    transition: .2s;
+    color: color(white);
+
+    &.active-cursor {
+        opacity: 1;
+    }
+} 
