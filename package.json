@@ -1,15 +1,25 @@
 {
-  "name": "lp",
+  "homepage": "https://voland91.github.io/landing/",
+  "name": "index",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
-    "sass": "^1.38.0"
+    "cssnano": "^5.0.8",
+    "parcel-bundler": "^1.12.5",
+    "postcss": "^8.3.6",
+    "sass": "^1.38.0",
+    "shx": "^0.3.2"
   },
   "scripts": {
+    "homepage": "https://voland91.github.io/landing/",
     "start": "parcel ./index.html",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prebuild-dev": "shx rm -rf dist/*",
+    "build-dev": "parcel build ./index.html --no-minify --public-url ./",
+    "prebuild": "shx rm -rf dist/*",
+    "build": "parcel build ./index.html --no-minify --public-url ./",
+    "push-gh-pages": "push-dir --dir=dist --branch=gh-pages --cleanup --verbose"
   },
   "repository": {
     "type": "git",
@@ -20,6 +30,5 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Voland91/landing/issues"
-  },
-  "homepage": "https://github.com/Voland91/landing#readme"
+  }
 }
