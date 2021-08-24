@@ -42,20 +42,53 @@
 
 <section id="clients" class="section-container clients"> 
     <h3 class="title title--white clients__title">Clients</h3>
-    <article class="clients__dsc-wrapper">
-        <img class="clients__img" src="assets/img/clients-phone.png" alt="obrazek"/>
-        <div class="mission__dsc-wrapper">
-            <img src="./assets/img/quote-sign.png" class="quote-sign" />
-            <p class="description description--clients">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
-            <p class="description description--author">Project Manager / <a href="#">Infinity-group.pl</a></p>
-            <div class="tag">
-                <p class="tag__item">web design</p>
-                <p class="tag__item">usability</p>
-                <p class="tag__item">e-commerce</p>
-            </div>
-        </div>  
-    </article>
+        <div class="clients__article-wrapper">
+            <article id="slide1" class="clients__dsc-wrapper">
+                <img class="clients__img" src="assets/img/clients-phone.png" alt="obrazek"/>
+                <div class="mission__dsc-wrapper">
+                    <img src="./assets/img/quote-sign.png" class="quote-sign" />
+                    <p class="description description--clients">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                    <p class="description description--author">Project Manager / <a href="#">Infinity-group.pl</a></p>
+                    <div class="tag">
+                        <p class="tag__item">web design</p>
+                        <p class="tag__item">usability</p>
+                        <p class="tag__item">e-commerce</p>
+                    </div>
+                </div>  
+            </article>
+            <article id="slide2" class="clients__dsc-wrapper slide-hidden">
+                <img class="clients__img" src="assets/img/clients-phone.png" alt="obrazek"/>
+                <div class="mission__dsc-wrapper">
+                    <img src="./assets/img/quote-sign.png" class="quote-sign" />
+                    <p class="description description--clients">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua incididunt ut labore et dolore magna.
+                    </p>
+                    <p class="description description--author">Adam Adamski / <a href="#">Infinity-group.pl</a></p>
+                    <div class="tag">
+                        <p class="tag__item">backend</p>
+                    </div>
+                </div>  
+            </article>
+            <article id="slide3" class="clients__dsc-wrapper slide-hidden">
+                <img class="clients__img" src="assets/img/clients-phone.png" alt="obrazek"/>
+                <div class="mission__dsc-wrapper">
+                    <img src="./assets/img/quote-sign.png" class="quote-sign" />
+                    <p class="description description--clients">Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, consectetur adipiscing elit.
+                    </p>
+                    <p class="description description--author">Krzysio / <a href="#">Infinity-group.pl</a></p>
+                    <div class="tag">
+                        <p class="tag__item">frontend</p>
+                        <p class="tag__item">usability</p>
+                    </div>
+                </div>  
+            </article>
+        </div>
+    <div class="clients__article-wrapper">
+        <label for="1"><input class="radio-input" type="radio" id="1" name="slider" checked></label>
+        <label for="2"><input class="radio-input" type="radio" id="2" name="slider"></label>
+        <label for="3"><input class="radio-input" type="radio" id="3" name="slider"></label>
+    </div>
+
 </section>
 
 <section id="products" class="section-container products">
@@ -199,5 +232,6 @@
 
 <script src="./src/js/navigation.js"></script>
 <script src="./src/js/hero-typing.js"></script>
+<script src="./src/js/slider.js"></script>
 </body>
 </html>

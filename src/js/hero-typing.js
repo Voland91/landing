@@ -16,5 +16,5 @@ const cursorAnimation = () => {
     cursor.classList.toggle('active-cursor');
 }
 
-const indexTyping = setInterval(addLetter, 200);
+const indexTyping = setInterval(addLetter, 170);
 setInterval(cursorAnimation, 500);

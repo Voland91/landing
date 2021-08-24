@@ -9,6 +9,10 @@
         padding: padding(text);
     }
 
+    &__article-wrapper {
+        @include flexRowCenter;
+    }
+
     &__dsc-wrapper {
         display: flex;
         flex-wrap: wrap;
@@ -34,4 +38,8 @@
         padding: 4px 10px;
         margin-right: 5px;
     }
+}
+
+.slide-hidden {
+   display: none;
 }
