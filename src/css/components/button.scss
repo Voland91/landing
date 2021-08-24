@@ -10,15 +10,31 @@
     transition: 0.2s;
     text-decoration: none;
 
-    &:hover {
-        border: 2px solid color(green);
-        background-color: transparent;
-        color: color(green);
-    }
-
     &--submit {
         margin: 20px 0;
         align-self: center;
         justify-self: center;
     }
+    
+    &__icon{
+        margin-left: 40px;
+        width: 15px;
+        fill: color(white);
+        transition: 0.2s;
+
+        &--arrow-up {
+            transform: rotate(-90deg);
+        }
+    }
+    
+    &:hover {
+        border: 2px solid color(green);
+        background-color: transparent;
+        color: color(green);
+
+        & >.button__icon {
+            fill: color(green)
+        }
+    }
 }
+
