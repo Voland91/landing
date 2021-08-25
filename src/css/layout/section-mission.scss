@@ -1,9 +1,11 @@
 .mission {
     @include flexRowCenter;
-    max-width: width(main-width);
+    width: 100vw;
     margin: 0 auto;
+    position: relative;
 
     &__text-wrapper {
+        max-width: width(main-width);
         @include flexColCenter;
     }
 
@@ -13,4 +15,11 @@
         padding-bottom: 0;
     }
 
+}
+
+.side-nav {
+    position: absolute;
+    right: 70px;
+    font-family: font-family(secondary);
+    font-size: 20px;
 }
