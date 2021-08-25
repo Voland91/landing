@@ -14,12 +14,7 @@
     }
 
     &__dsc-wrapper {
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-        max-width: width(full-width);
-        justify-content: space-between;
-        margin: 40px 0;
+        display: none;
     }
 
     &__img {
@@ -40,6 +35,11 @@
     }
 }
 
-.slide-hidden {
-   display: none;
+.slide-active {
+   display: flex;
+   flex-wrap: wrap;
+   width: 100%;
+   max-width: width(full-width);
+   justify-content: space-between;
+   margin: 40px 0;
 }
