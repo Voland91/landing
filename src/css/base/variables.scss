@@ -38,3 +38,9 @@ $section-paddings: (
     text: 45px 30px,
     section: 85px 0,
 );
+
+$breakpoints: (
+    mobile: 768px,
+    tablet: 1025px,
+    desktop: 1440px,
+);

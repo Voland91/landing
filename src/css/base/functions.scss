@@ -42,3 +42,7 @@
     @return get-map-value($section-paddings, $key);
 }
 
+@function breakpoint($key) {
+    @return get-map-value($breakpoints, $key);
+}
+

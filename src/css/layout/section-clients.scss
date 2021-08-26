@@ -4,16 +4,15 @@
     background-repeat: no-repeat;
     background-size: cover;
 
-    &__title{
-        padding: padding(text);
-    }
-
     &__article-wrapper {
         @include flexRowCenter;
+        width: 100%;
+        padding: padding(text);
     }
 
     &__dsc-wrapper {
         display: none;
+    
     }
 
     &__img {
@@ -41,4 +40,8 @@
    max-width: width(full-width);
    justify-content: space-between;
    margin: 40px 0;
+
+   @media (max-width: breakpoint(tablet)) {
+    justify-content: center;
+}
 }

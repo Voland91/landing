@@ -1,4 +1,8 @@
 .quote-sign {
     position: absolute;
-    left: -30px;
+    left: -50px;
+
+    @media (max-width: breakpoint(tablet)) {
+      display: none;
   }
+}

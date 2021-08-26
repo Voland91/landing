@@ -4,17 +4,23 @@
     right: 70px;
     font-family: font-family(secondary);
     font-size: 20px;
-    height: 100px;
+    height: 80px;
     justify-content: space-between;
+
+    @media (max-width: breakpoint(desktop)) {
+        display: none;
+    }
 }
 
 .arrow {
     position: relative;
     top: 0;
-    transition: top ease 0.2s;
+    transition: top ease 0.3s;
     width: 18px;
+    padding: 20px 0;
     
     &__up {
+        
         transform: rotate(180deg);
 
         &:hover {
@@ -23,7 +29,7 @@
     }
 
     &__down {
-        
+
         &:hover {
             top: 10px;
          }
@@ -33,3 +39,4 @@
         display: none;
     }
 }
+
