@@ -1,0 +1,16 @@
+.side-nav {
+    @include flexColCenter;
+    position: absolute;
+    right: 70px;
+    font-family: font-family(secondary);
+    font-size: 20px;
+    height: 100px;
+    justify-content: space-between;
+}
+
+.arrow {
+    width: 18px;
+    &__up {
+        transform: rotate(180deg);
+    }
+}

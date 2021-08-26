@@ -1,4 +1,6 @@
 .section-container {
-    width: 100vw;
+    @include flexColCenter;
+    width: 100%;
     padding: padding(section); 
+    position: relative;
 }

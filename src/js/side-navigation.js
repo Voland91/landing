@@ -7,8 +7,14 @@ let numberOfPages = `${sections.length}`;
 
 
 const addingAllSectionsNumbers = () => {
-    const numberOfAllSections = document.querySelector('.all-sections');
-    numberOfAllSections.textContent = numberOfPages;
+
+    sections.forEach(section => {
+        const numberOfAllSections = section.querySelector('.all-sections');
+        const numberOfCurrentSection = section.querySelector('.current-section');
+        numberOfAllSections.textContent = numberOfPages;
+        numberOfCurrentSection.textContent = sections.indexOf(section) + 1;
+    })
+    
 }
 
 

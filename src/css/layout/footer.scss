@@ -1,8 +1,6 @@
 .footer {
-    @include flexColCenter;
-    width: 100vw;
     background-color: color(footer);
-    padding: padding(text);
+    padding: padding(text) !important;
     color: color(bg-gray);
     font-weight: font-weight(light);
     font-size: font-size(s);
