@@ -25,11 +25,13 @@ nav {
 
              & ul {
                  @include flexColCenter;
+                 
              }   
 
              & li {
                  border: none;
                  font-size: font-size(l);
+                 margin-left: -50px;
                  
                  &:hover {
                     font-size: font-size(ll);
@@ -79,8 +81,6 @@ nav {
             text-decoration: none;
         }
     }
-
-
 } 
 
 .nav-active {
