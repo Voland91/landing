@@ -13,4 +13,8 @@
     &__up {
         transform: rotate(180deg);
     }
+
+    &__hidden {
+        display: none;
+    }
 }
