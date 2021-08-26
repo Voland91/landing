@@ -9,9 +9,24 @@
 }
 
 .arrow {
+    position: relative;
+    top: 0;
+    transition: top ease 0.2s;
     width: 18px;
+    
     &__up {
         transform: rotate(180deg);
+
+        &:hover {
+           top: -10px;
+        }
+    }
+
+    &__down {
+        
+        &:hover {
+            top: 10px;
+         }
     }
 
     &__hidden {
