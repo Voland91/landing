@@ -17,6 +17,10 @@
 
     &__img {
         max-height: 377px;
+
+        @media (max-width: breakpoint(mobile)) {
+            max-height: 280px;
+        }
     }
 }
 

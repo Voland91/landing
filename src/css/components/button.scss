@@ -24,10 +24,6 @@
 
         &--arrow-up {
             transform: rotate(-90deg);
-
-            @media (max-width: breakpoint(tablet)) {
-                display: none;
-            }
         }
     }
     

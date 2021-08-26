@@ -13,10 +13,12 @@
 <body>
 
     <header>
-    <nav>
+    <nav id="nav">
         <div class="logo-wrapper">
             <a href="#"><img class="logo" src="/assets/img/logo-ig.png" alt="logo infinity"/></a>
         </div>
+        <img id="burger" class="menu-icon" src="/assets/icons/menu.svg" alt="burger menu icon"/>
+        <img id="close" class="menu-icon hidden" src="/assets/icons/close.svg" alt="close menu icon" onclick="closeBurgerMenu()" />
         <ul>
             <li><a href="#mission">mission</a></li>
             <li><a href="#clients">clients</a></li>
@@ -253,5 +255,6 @@
 <script src="./src/js/hero-typing.js"></script>
 <script src="./src/js/slider.js"></script>
 <script src="./src/js/side-navigation.js"></script>
+<script src="./src/js/burger-menu.js"></script>
 </body>
 </html>
